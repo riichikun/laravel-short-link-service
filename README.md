@@ -15,7 +15,7 @@
 **Важно!** Переменные окружения, заданные в .env в директории проекта Laravel, привязаны к данным для доступа к БД. Для их корректного чтения в docker-контейнере необходимо использовать флаг "--env-file" при запуске контейнера
 
 Далее устанавливаем все нужные зависимости composer:
-`composer install`
+`docker compose exec app composer install`
 
 Вызываем миграции в контейнере с помощью:
 `docker compose exec app php artisan migrate`
