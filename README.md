@@ -34,4 +34,4 @@
 `docker compose exec app php artisan test --group=Feature`
 
 
-*[Коллекция Postman](https://riichikuns-team.postman.co/workspace/Personal-Workspace~9a35cce7-709e-46a9-b4af-19a3237db252/request/42542926-1824a1c5-c5d2-443e-8e3d-b0fff2134216) с документацией по API*
+*[Коллекция Postman](https://www.postman.com/riichikuns-team/pet-workspace-demo/collection/pbg33ed/short-url-service) с документацией по API*
